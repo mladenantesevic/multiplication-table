@@ -13,14 +13,16 @@ catch(PDOException $e)
     echo "Error:".$e->getMessage();
 }
 
-for ($i = 1; $i < 10; $i++) {
-  for ($j = 1; $j < 10; $j++) {
-     if ($j == 1) {
-       echo str_pad($i*$j, 2, " ", STR_PAD_LEFT);
-     } else {
-       echo str_pad($i*$j, 4, " ", STR_PAD_LEFT);
-     }
-  }
-  echo "\n";
-}
+<?php
+echo "<table border =\"1\" style='border-collapse: collapse'>";
+	for ($row=1; $row <= 10; $row++) { 
+		echo "<tr> \n";
+		for ($col=1; $col <= 10; $col++) { 
+		   $p = $col * $row;
+		   echo "<td>$row . " x " . $col . " = "$p</td> \n";
+		   	}
+	  	    echo "</tr>";
+		}
+		echo "</table>";
+?>
 ?>
