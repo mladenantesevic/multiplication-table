@@ -13,7 +13,6 @@ catch(PDOException $e)
     echo "Error:".$e->getMessage();
 }
 
-<?php
 echo "<table border =\"1\" style='border-collapse: collapse'>";
 	for ($row=1; $row <= 10; $row++) { 
 		echo "<tr> \n";
