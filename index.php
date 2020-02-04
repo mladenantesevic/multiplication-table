@@ -1,5 +1,7 @@
 <?php
 
+require_once(__DIR__.'/class/calculator.class.php');
+
 include 'config.php';
 try
 {
