@@ -1,5 +1,8 @@
 <?php
 
+// posebno imamo fajl sa css-om za izgled tabele
+// posebno je calculator.js fajl koji selektuje red i kolonu i daje notifikaciju o rezultatu
+
 require_once(__DIR__.'/class/calculator.class.php');
 
 include 'config.php';
