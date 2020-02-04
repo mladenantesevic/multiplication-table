@@ -36,24 +36,10 @@ for ($col=1; $col <= 10; $col++) {
     $p = $col * $row;
 echo "    <td>$row x $col = $p</td> \n";
     }
-//	  	    echo "</tr>";
-//		}
-//		echo "</table>";
-
-        <tr>
-            <td>100</td>
-            <td>Abc</td>
-        </tr>
-        <tr>
-            <td>101</td>
-            <td>Def</td>
-        </tr>
-        <tr>
-            <td>102</td>
-            <td>Ghi</td>
-        </tr>
-    </tbody>
-</table>
+echo "    </tr>";
+	}
+echo "    </tbody>";
+echo "</table>";
 
 <script>
 highlight_row();
