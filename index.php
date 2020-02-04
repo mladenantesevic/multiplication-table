@@ -60,8 +60,8 @@ function highlight_row() {
 
 }
 </script>
-</body>
-</html>
+echo "</body>";
+echo "</html>";
 
 //echo "<table border =\"1\" style='border-collapse: collapse'>";
 //	for ($row=1; $row <= 10; $row++) { 
