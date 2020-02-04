@@ -23,13 +23,23 @@ echo "<html>";
 echo "<head>";
 echo "<link rel="stylesheet" type="text/css" href="layout.css">";
 echo "</head>";
-<body>
-<table id="display-table" class="table-layout">
-    <thead>
-        <th>ID</th>
-        <th>Company</th>
-    </thead>
-    <tbody>
+echo "<body>";
+echo "<table id="display-table" class="table-layout">";
+echo "    <thead>";
+echo "        <th>Multiplication table</th>";
+echo "    </thead>";
+echo "    <tbody>";
+
+for ($row=1; $row <= 10; $row++) { 
+echo "    <tr> \n";
+for ($col=1; $col <= 10; $col++) { 
+    $p = $col * $row;
+echo "    <td>$row x $col = $p</td> \n";
+    }
+//	  	    echo "</tr>";
+//		}
+//		echo "</table>";
+
         <tr>
             <td>100</td>
             <td>Abc</td>
