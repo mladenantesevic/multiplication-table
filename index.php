@@ -28,6 +28,12 @@ echo "<table border =\"1\" style='border-collapse: collapse'>";
 ?>
 ?>
 
+$cal = new calculator();
+if(isset($_POST['submit']))
+{   
+    $result = $cal->getresult($_POST['n1'],$_POST['n2'],$_POST['op']);
+}
+
     <?php
       
         if(isset($_POST['button1'])) { 
