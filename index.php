@@ -34,6 +34,8 @@ if(isset($_POST['submit']))
     $result = $cal->getresult($_POST['n1'],$_POST['n2'],$_POST['op']);
 }
 
+<script type="text/javascript" src="calculator.js"></script>
+
     <?php
       
         if(isset($_POST['button1'])) { 
