@@ -28,7 +28,7 @@ echo "    </tr>";
 	}
 echo "    </tbody>";
 echo "</table>";
-
+echo "<script src="calculator.js"></script>";
 <script>
 highlight_row();
 function highlight_row() {
