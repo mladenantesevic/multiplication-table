@@ -27,4 +27,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+
+echo $a . " x " . $b . " = " $p
+
 ?>
