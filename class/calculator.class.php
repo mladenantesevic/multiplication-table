@@ -5,35 +5,11 @@ class calculator
     var $a;
     var $b;
 
-    function checkoperation($oprator)
-    {
-        switch($oprator)
-        {
-            case '+':
-            return $this->a + $this->b;
-            break;
-
-            case '-':
-            return $this->a - $this->b;
-            break;
-
-            case '*':
-            return $this->a * $this->b;
-            break;
-
-            case '/':
-            return $this->a / $this->b;
-            break;
-
-            default:
-            return "Sorry No command found";
-        }   
-    }
-    function getresult($a, $b, $c)
+    function multiplication($a, $b)
     {
         $this->a = $a;
         $this->b = $b;
-        return $this->checkoperation($c);
+        return $this->a * $thic->b;
     }
 }
 
