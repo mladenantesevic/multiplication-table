@@ -9,7 +9,7 @@ class calculator
     {
         $this->a = $a;
         $this->b = $b;
-        return $this->a * $thic->b;
+        return $this->a * $this->b;
     }
 }
 
