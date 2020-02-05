@@ -1,4 +1,6 @@
 //javascript koji na klik salje ajax request sa ID-om polja na kojem je bio klik
+//na osnovu ID polja mozemo jednoznacno odrediti koji su faktori u mnozenju
+//samo odredjivanje je napravljeno u php skripti koja se poziva preko ajaxa
 
 <script>
 show_result();
