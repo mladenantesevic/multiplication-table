@@ -32,3 +32,4 @@ echo "<script src="calculator.js"></script>";
 echo "</body>";
 echo "</html>";
 
+?>
