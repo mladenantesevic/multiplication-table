@@ -9,6 +9,7 @@ require_once(__DIR__.'/includes/config.php');
 echo "<!DOCTYPE html>";
 echo "<html>";
 echo "<head>";
+echo "<script src="calculator.js"></script>";
 echo "<link rel="stylesheet" type="text/css" href="layout.css">";
 echo "</head>";
 echo "<body>";
@@ -27,7 +28,6 @@ echo "    </tr>";
 	}
 echo "    </tbody>";
 echo "</table>";
-echo "<script src="calculator.js"></script>";
 echo "</body>";
 echo "</html>";
 
