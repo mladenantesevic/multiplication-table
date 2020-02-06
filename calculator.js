@@ -2,7 +2,7 @@
 //na osnovu ID polja mozemo jednoznacno odrediti koji su faktori u mnozenju
 //samo odredjivanje je napravljeno u php skripti koja se poziva preko ajaxa
 
-<script>
+<script type="text/javascript>
 show_result();
 function show_result() {
 var table = document.getElementById('display-table');
