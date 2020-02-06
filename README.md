@@ -1,8 +1,4 @@
 # multiplication-table
 just a test repository
 Prerequisites:
-1) Install nginx
-2) Install php-fpm
-3) install MariaDB
-
-Main idea is to have PHP script which generates complete HTML form. In each filed we will embed small PHP script which calculates the result by multiplying two numbers and execute database insert operation with required fields.
+Use /includes/create_db.php for initial database creation and table insertion. You can change database access parameters but you have to change includes/config.php accordingly.
