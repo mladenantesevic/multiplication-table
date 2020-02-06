@@ -31,9 +31,9 @@ if ($conn->connect_error) {
 // sql to create table
 $sql = "CREATE TABLE Multiplication (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-MultiplicatorA UNSIGNED,
-MultiplicatorB UNSIGNED,
-Product UNSIGNED,
+MultiplicatorA INT(6) UNSIGNED,
+MultiplicatorB INT(6) UNSIGNED,
+Product INT(6) UNSIGNED,
 reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )";
 
