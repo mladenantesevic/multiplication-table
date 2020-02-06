@@ -11,6 +11,8 @@ for (var i = 0; i < cells.length; i++) {
    cells[i].onclick = function(){
    xhttp.open("GET", "calculator.php?cell=$i", true);
    xhttp.send();
+   table.getElementByTagName("td").innerHTML =
+      this.responseText;
    };
    }
 }
