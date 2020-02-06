@@ -21,8 +21,7 @@ echo "    <tbody>";
 for ($row=1; $row <= 10; $row++) { 
 echo "    <tr> \n";
 for ($col=1; $col <= 10; $col++) { 
-    $p = $col * $row;
-echo "    <td>$row x $col = $p</td> \n";
+echo "    <td>" . $row . " x " . $col . "</td> \n";
     }
 echo "    </tr>";
 	}
